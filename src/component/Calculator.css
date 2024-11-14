@@ -1,0 +1,162 @@
+.container {
+  margin-top: 2rem;
+  max-width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  border: 2px solid #333 !important;
+  border-radius: 16px !important;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3) !important;
+  padding: 20px !important;
+  background-color: #ffffff !important;
+  width: 100% !important;
+  max-width: 450px !important;
+}
+
+.title {
+  text-align: center !important;
+  font-weight: bold !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.display-box {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background-color: #f0f0f0 !important;
+  border-radius: 8px !important;
+  box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.2) !important;
+  padding: 15px !important;
+  margin-bottom: 20px !important;
+}
+
+.display-text {
+  font-size: 1.5rem !important;
+  font-weight: bold !important;
+  color: #333 !important;
+  text-align: right !important;
+  width: 100% !important;
+}
+
+button {
+  font-size: 1.2rem !important;
+  font-weight: 600 !important;
+  padding: 15px !important;
+  border-radius: 50% !important;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1) !important;
+  width: 100% !important;
+}
+
+.operator-button {
+  background-color: #ff9800 !important;
+  color: white !important;
+  width: 100% !important;
+}
+.sqrt-button {
+  margin-left: 0 !important;
+}
+
+.operator-button:hover {
+  background-color: #fb8c00 !important;
+}
+
+.number-button {
+  background-color: #e0e0e0 !important;
+  color: #333 !important;
+}
+
+.number-button:hover {
+  background-color: #d5d5d5 !important;
+}
+
+.del-button,
+.clear-button {
+  width: 150% !important;
+  padding: 15px 0 !important;
+  border-radius: 10px !important;
+  font-size: 1.2rem !important;
+}
+
+.del-button {
+  background-color: #f12c21 !important;
+  width: 100% !important;
+}
+
+.del-button:hover {
+  background-color: #ff5a50 !important;
+}
+
+.clear-button {
+  background-color: #6a0dad !important;
+  width: 100% !important;
+  margin-left: 0 !important;
+}
+
+.clear-button:hover {
+  background-color: #8a2be2 !important;
+}
+
+@media (max-width: 600px) {
+  .box {
+    padding: 10px !important;
+  }
+
+  .title {
+    font-size: 1.5rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .display-text {
+    font-size: 1.3rem !important;
+  }
+
+  button {
+    font-size: 1rem !important;
+    padding: 12px !important;
+  }
+  .sqrt-button {
+    margin-left: 0 !important;
+  }
+
+  .del-button,
+  .clear-button {
+    width: 100% !important;
+    font-size: 1rem !important;
+  }
+
+  .MuiGrid-root {
+    padding: 8px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .box {
+    padding: 5px !important;
+  }
+
+  .title {
+    font-size: 1.2rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .display-text {
+    font-size: 1.1rem !important;
+  }
+
+  button {
+    font-size: 0.9rem !important;
+    padding: 10px !important;
+  }
+  .sqrt-button {
+    margin-left: 0 !important;
+  }
+
+  .del-button,
+  .clear-button {
+    width: 150% !important;
+    font-size: 0.9rem !important;
+  }
+}
